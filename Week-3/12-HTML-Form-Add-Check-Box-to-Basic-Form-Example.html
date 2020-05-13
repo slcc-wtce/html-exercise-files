@@ -18,13 +18,25 @@
       <label for="comments">Comments:</label><br />
       <textarea name="comments" id="comments" cols="50" rows="10">Type your comments here.</textarea><br />
 
-      <!--Add two radio buttons below. Ask the question, "Can we contact you?" Set the radio buttons to Yes or No. Make sure that the labes are related to the correct input, and that the correct values will be sent with the form-->
       <p>Can we contact you back?</p>
       <input type="radio" name="contact-back" id="Yes" value="yes" />
       <label for="yes">Yes</label>
       <input type="radio" name="contact-back" id="No" value="no" />
-      <label for="no">No</label><br /><br />
-
+      <label for="no">No</label><br />
+      <!--Add three check box buttons below. The prompts has been creted. Set the check box buttons to Phone, Text or Email. Make sure that the labels are related to the correct input, and that the correct values will be sent with the form-->
+      <p>Best Contact Methods:</p>
+      <input type="checkbox" id="contactphone" name="contact-phone" value="Phone" />
+      <label for="contactphone">
+        Phone
+      </label>
+      <input type="checkbox" id="contacttext" name="contact-text" value="Text" />
+      <label for="contacttext">
+        Text
+      </label>
+      <input type="checkbox" id="contactemail" name="contact-email" value="Email" />
+      <label for="contactemail">
+        Email </label
+      ><br /><br />
       <button>Submit</button>
     </form>
   </body>
