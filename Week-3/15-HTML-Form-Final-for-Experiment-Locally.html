@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Final Form Code to Experiment With</title>
-  </head>
-  <body>
-    <!--THINGS TO TRY: Change the method from get to post (if you are doing this in CodePen, make sure to keep the target set to _blank. If you are experimenting on your own computer, try changing the target from _blank to _self.)-->
-    <form action="http://form-test.slccwebdev.com/form-success.html" method="get" target="_blank">
-      <!--THINGS TO TRY: Make the text in the label bold. Try making this a first name field: Set the label to "First Name", set the name attribute to "fname", and set the ID and For attributes to "fname"-->
-      <label for="name">Name:</label>
-      <input type="text" name="name" id="name" />
 
-      <br />
-      <!--THINGS TO TRY: If you made the first field a first name field, create another text field for the last name. Set the label to "Last Name:", set the name attribute to "lname", and set the ID and For attributes to "lname"-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Form Code to Experiment With</title>
+</head>
 
-      <!--THINGS TO TRY: Make the text in the label bold, add the value attribute to the input and set it to "example.email.com"-->
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" />
+<body>
+  <!--THINGS TO TRY: Change the method from get to post (if you are doing this in CodePen, make sure to keep the target set to _blank. If you are experimenting on your own computer, try changing the target from _blank to _self.)-->
+  <form action="http://form-test.slccwebdev.com/form-success.php" method="get" target="_blank">
+    <!--THINGS TO TRY: Make the text in the label bold. Try making this a first name field: Set the label to "First Name", set the name attribute to "fname", and set the ID and For attributes to "fname"-->
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" />
 
-      <br />
+    <br />
+    <!--THINGS TO TRY: If you made the first field a first name field, create another text field for the last name. Set the label to "Last Name:", set the name attribute to "lname", and set the ID and For attributes to "lname"-->
 
-      <!--THINGS TO TRY: Make the text in the label bold, make the text area box bigger.-->
-      <label for="comments">Comments:</label>
-      <br />
-      <textarea name="comments" id="comments" cols="50" rows="10" maxlength="250">
+    <!--THINGS TO TRY: Make the text in the label bold, add the value attribute to the input and set it to "example.email.com"-->
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" />
+
+    <br />
+
+    <!--THINGS TO TRY: Make the text in the label bold, make the text area box bigger.-->
+    <label for="comments">Comments:</label>
+    <br />
+    <textarea name="comments" id="comments" cols="50" rows="10" maxlength="250">
 Type your comments here.
-</textarea
-      >
+</textarea>
 
-      <br />
+    <br />
 
-      <!--THINGS TO TRY: Make the text in the question bold using the style attribute (hint: "font-weight: bold;"). Add another radio button option that states "No Preference"-->
-      <p>Can we contact you back?</p>
-      <input type="radio" name="contact-back" id="yes" value="Nes" />
-      <label for="yes">Yes</label>
-      <input type="radio" name="contact-back" id="no" value="Yo" />
-      <label for="no">No</label>
+    <!--THINGS TO TRY: Make the text in the question bold using the style attribute (hint: "font-weight: bold;"). Add another radio button option that states "No Preference"-->
+    <p>Can we contact you back?</p>
+    <input type="radio" name="contact-back" id="yes" value="Nes" />
+    <label for="yes">Yes</label>
+    <input type="radio" name="contact-back" id="no" value="Yo" />
+    <label for="no">No</label>
 
-      <br />
+    <br />
 
-      <!--THINGS TO TRY: Make the prompt text bold using the style attribute (hint: "font-weight: bold;"). Add another check box, set the label to "Postal Service", set the ID to "contactpostal", set the name to "contact-postal", set the value to "Postal Service" -->
-      <p>Best Contact Methods:</p>
-      <input type="checkbox" id="contactphone" name="contact-phone" value="Phone" />
-      <label for="contactphone">Phone</label>
+    <!--THINGS TO TRY: Make the prompt text bold using the style attribute (hint: "font-weight: bold;"). Add another check box, set the label to "Postal Service", set the ID to "contactpostal", set the name to "contact-postal", set the value to "Postal Service" -->
+    <p>Best Contact Methods:</p>
+    <input type="checkbox" id="contactphone" name="contact-phone" value="Phone" />
+    <label for="contactphone">Phone</label>
 
-      <input type="checkbox" id="contacttext" name="contact-text" value="Text" />
-      <label for="contacttext">Text</label>
+    <input type="checkbox" id="contacttext" name="contact-text" value="Text" />
+    <label for="contacttext">Text</label>
 
-      <input type="checkbox" id="contactemail" name="contact-email" value="Email" />
-      <label for="contactemail">Email </label>
+    <input type="checkbox" id="contactemail" name="contact-email" value="Email" />
+    <label for="contactemail">Email </label>
 
-      <br />
-      <br />
+    <br />
+    <br />
 
-      <!--THINGS TO TRY: Make the text in the button strong, add the type value and set it to "submit", add the value attribute and set it to "Submit", add the ID attribute and set it to "submitbutton"-->
-      <button>Submit</button>
+    <!--THINGS TO TRY: Make the text in the button strong, add the type value and set it to "submit", add the value attribute and set it to "Submit", add the ID attribute and set it to "submitbutton"-->
+    <button>Submit</button>
 
-      <!--THINGS TO TRY: Create a second button to reset the form. Set the contents of the button element to "Reset", add the type attribute and set it to "reset", add the value attribute and set it to "reset", add the ID attribute and set it to "resetbutton"-->
-    </form>
-  </body>
+    <!--THINGS TO TRY: Create a second button to reset the form. Set the contents of the button element to "Reset", add the type attribute and set it to "reset", add the value attribute and set it to "reset", add the ID attribute and set it to "resetbutton"-->
+  </form>
+</body>
+
 </html>

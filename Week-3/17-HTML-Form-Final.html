@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Final Form Code</title>
-  </head>
-  <body>
-    <form action="http://form-test.slccwebdev.com/form-success.html" method="get" target="_blank">
-      <label for="name">Name:</label>
-      <input type="text" name="name" id="name" /><br />
 
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" /><br />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Form Code</title>
+</head>
 
-      <label for="comments">Comments:</label><br />
-      <textarea name="comments" id="comments" cols="50" rows="10">
+<body>
+  <form action="http://form-test.slccwebdev.com/form-success.php" method="get" target="_blank">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" /><br />
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" /><br />
+
+    <label for="comments">Comments:</label><br />
+    <textarea name="comments" id="comments" cols="50" rows="10">
         Type your comments here.
-        </textarea
-      ><br />
+        </textarea><br />
 
-      <p>Can we contact you back?</p>
-      <input type="radio" name="contact-back" id="Yes" value="yes" />
-      <label for="yes">Yes</label>
-      <input type="radio" name="contact-back" id="No" value="no" />
-      <label for="no">No</label><br />
+    <p>Can we contact you back?</p>
+    <input type="radio" name="contact-back" id="Yes" value="yes" />
+    <label for="yes">Yes</label>
+    <input type="radio" name="contact-back" id="No" value="no" />
+    <label for="no">No</label><br />
 
-      <p>Best Contact Methods:</p>
-      <input type="checkbox" id="contactphone" name="contact-phone" value="Phone" />
-      <label for="contactphone">Phone</label>
+    <p>Best Contact Methods:</p>
+    <input type="checkbox" id="contactphone" name="contact-phone" value="Phone" />
+    <label for="contactphone">Phone</label>
 
-      <input type="checkbox" id="contacttext" name="contact-text" value="Text" />
-      <label for="contacttext">Text</label>
+    <input type="checkbox" id="contacttext" name="contact-text" value="Text" />
+    <label for="contacttext">Text</label>
 
-      <input type="checkbox" id="contactemail" name="contact-email" value="Email" />
-      <label for="contactemail">Email </label><br /><br />
+    <input type="checkbox" id="contactemail" name="contact-email" value="Email" />
+    <label for="contactemail">Email </label><br /><br />
 
-      <button>Submit</button>
-    </form>
-  </body>
+    <button>Submit</button>
+  </form>
+</body>
+
 </html>

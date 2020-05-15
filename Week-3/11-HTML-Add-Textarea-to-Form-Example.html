@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adding a Text Area to a Form</title>
-  </head>
-  <body>
-    <!--INSTRUCTIONS: See the comments within the code to know what needs to be completed.-->
 
-    <form action="http://form-test.slccwebdev.com/form-success.html" method="get" target="_blank">
-      <label for="name">Name:</label>
-      <input type="text" name="name" id="name" /><br />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adding a Text Area to a Form</title>
+</head>
 
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" /><br />
+<body>
+  <!--INSTRUCTIONS: See the comments within the code to know what needs to be completed.-->
 
-      <!--Add a textarea element with label below. Link the label to the form field. Add the name (needs to be set to "comments" to work with the success page.), rows, cols, and maxlength attributes. Set the name to "comments", the rows to 10, the cols to 50, and the maxlength to 250. Then submit the form to see if it works.-->
-      <label for="comments">Comments:</label><br />
-      <textarea name="comments" id="comments" cols="50" rows="10" maxlength="250">Type your comments here.</textarea><br /><br />
+  <form action="http://form-test.slccwebdev.com/form-success.php" method="get" target="_blank">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" /><br />
 
-      <button>Submit</button>
-    </form>
-  </body>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" /><br />
+
+    <!--Add a textarea element with label below. Link the label to the form field. Add the name (needs to be set to "comments" to work with the success page.), rows, cols, and maxlength attributes. Set the name to "comments", the rows to 10, the cols to 50, and the maxlength to 250. Then submit the form to see if it works.-->
+    <label for="comments">Comments:</label><br />
+    <textarea name="comments" id="comments" cols="50" rows="10" maxlength="250">Type your comments here.</textarea><br /><br />
+
+    <button>Submit</button>
+  </form>
+</body>
+
 </html>
